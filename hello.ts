@@ -6,7 +6,7 @@
 // alert('hello world in TypeScript!！！！!!!!')
 
 
-/* 类型批注 */
+/** 类型批注 */
 // function area(shape: string, width: number, height: number){
 //     var area = width * height;
 //     return "I'm a " + shape + " with an area of " + area + " cm squared.";
@@ -14,7 +14,7 @@
 // document.body.innerHTML = area("rectangle", 30, 15);
 
 
-/* 接口 */
+/** 接口 */
 // interface Shape{
 //     name: string;
 //     width: number;
@@ -30,7 +30,7 @@
 // console.log(area({width: 30, height: 15}));
 
 
-/* 箭头函数表达式（lambda表达式） */
+/** 箭头函数表达式（lambda表达式） */
 // 函数写法
 // var shape = {
 //     name: "rectangle",
@@ -56,3 +56,6 @@
 // }
 // shape.popup();
 
+
+/** 类 */
+// TypeScript支持继承了可选的类型批注支持的ECMAScript6
