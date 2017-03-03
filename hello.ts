@@ -80,7 +80,7 @@ console.log('Name of Shape: ' + square.name);
 // console.log('Height of Shape: ' + square.height);
 
 
-/** 继承 */
+// /** 继承 */
 // 继承一个已存在的类并创建一个派生类，继承使用关键字extends.
 class Shape3D extends Shape{
     volume: number;
